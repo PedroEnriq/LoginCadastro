@@ -17,6 +17,14 @@ body{
     min-height: 100vh;
 }
 
+.sign-page{
+    display: none;
+}
+
+.login-page{
+    display: block;
+}
+
 div{
     margin: 1rem;
     align-items: center;
