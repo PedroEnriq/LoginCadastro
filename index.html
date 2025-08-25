@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f413d1ae96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Cadastre / Login</title>
+</head>
+<body>
+    <main class="container">
+        <div id="login-box" class="login-page">
+            <h1>Login</h1>
+            <h4>Don't have an account? <a onclick="showSignup()" id="signup" href="#">Sign up</a></h4>
+            <form >
+                <div class="input-box">
+                    <input placeholder="Email" id="email" name="email" type="email" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input placeholder="Senha" id="senha" name="senha" type="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div>
+                    <input type="checkbox"><label for="remember">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn-login">Login</button>
+            </form>
+        </div>
+        <div id="sign-box" class= "sign-page">
+            <h1>Sign up</h1>
+            <h4>Already have an account? <a onclick="showLogin()" id="login" href="#">Log in</a></h4>
+            <form action="">
+                <div class="input-box">
+                    <input placeholder="Nome" id="nome" type="text" required>
+                </div>
+                <div class="input-box">
+                    <input placeholder="Sobrenome" id="Sobrenome" type="text" required>
+                </div>
+                <div class="input-box">
+                    <input placeholder="Email" id="email" name="email" type="email" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input placeholder="Senha" id="senha" name="senha" type="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" >Sign up</button>
+            </form>
+        </div>
+    </main>
+    <script src="/src/scripts/script.js"></script>
+</body>
+</html>
