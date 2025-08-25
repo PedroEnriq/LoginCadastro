@@ -1,0 +1,48 @@
+@media (max-width: 480px) {
+    /* Estilos para telas de até 480px de largura */
+    
+    .container {
+        width: 90%; /* Ajusta a largura do contêiner principal para 90% da tela */
+        padding: 20px;
+    }
+
+    .login-page, .sign-page {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Diminui o tamanho do título */
+    }
+
+    h4 {
+        font-size: 0.8rem; /* Diminui o tamanho do subtítulo */
+    }
+
+    a{
+        font-size: 0.8rem;
+    }
+
+    label{
+        font-size: 0.8rem;
+    }
+
+    .input-box input {
+        width: 90%; /* Ajusta a largura dos campos de entrada */
+        padding: 10px;
+    }
+
+    .input-box i {
+        right: 10%; /* Ajusta a posição do ícone */
+        top: 35%;
+    }
+
+    button {
+        width: 100%; /* Faz os botões ocuparem a largura total */
+    }
+
+    label {
+        margin-right: 20px; /* Reduz o espaçamento entre a checkbox e o label */
+    }
+
+
+}
